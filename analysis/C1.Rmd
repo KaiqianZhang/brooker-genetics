@@ -1,0 +1,47 @@
+---
+title: "Chapter 1 Overview of Genetics"
+author: "Kaiqian Zhang"
+date: "4/25/2019"
+output:
+  workflowr::wflow_html:
+    code_folding: hide
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## DNA basics
+
+- A DNA sequence is 3 billion nucleotide base pairs in length.
+
+- 46 chromosomes in 23 pairs.
+
+- Each cell has two sequences of DNA.
+
+- Approximately 20,000 to 25,000 genes coding for proteins. 
+
+- DNA is the largest macro- molecule found in living cells. A single DNA molecule can be composed of a linear sequence of hundreds of millions of nucleotides!
+
+### Polypeptide
+
+- Functional product of most genes.
+
+- A linear sequence of amino acids that folds into units that constitute proteins.
+
+### Chromosome
+
+- Contained in the cell nucleus for a eukaryotic cell. The double membrane shield chromosomes from the rest of the cell.
+
+### Protein
+
+- "Workhorse" of all living cells: proteins in the cell determine cell structure and function.
+
+- Enzyme, a particular protein, could determine the construction of cell. (The construction of a cell greatly depends on its proteins involved in anabolism)
+
+p1-p5
+
+
+
+

@@ -8,7 +8,7 @@ output:
 
 This is notes taking home for the book: Genetics Analysis and Principles (Robert J. Brooker). 
 
-* Chapter 1
+* [Chapter 1](C1.html)
 
 * Chapter 2
 
