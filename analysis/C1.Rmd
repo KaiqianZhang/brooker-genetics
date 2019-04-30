@@ -40,7 +40,31 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Enzyme, a particular protein, could determine the construction of cell. (The construction of a cell greatly depends on its proteins involved in anabolism)
 
-p1-p5
+### mRNA
+
+- RNA that contains information for the synthesis of a particular polypeptide.
+
+### diploid
+
+- Contains two copies of each chromosome, one from each parent. 
+
+### Homologs
+
+- The two copies are called homologs to each other.
+
+### Somatic cells
+
+- cells that are not directly involved in the sextual repreduction contain 46 chromosomes.
+
+- gametes contain only 23 chromosomes, are haploid.
+
+### allele
+
+- different versions of the same gene
+
+- say genotype of one gene in human is Tt, then t is allele.  
+
+
 
 
 
