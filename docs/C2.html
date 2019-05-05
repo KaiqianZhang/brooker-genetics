@@ -12,7 +12,7 @@
 <meta name="author" content="Kaiqian Zhang" />
 
 
-<title>Chapter 1 Overview of Genetics</title>
+<title>Chapter 2 Mendelian Inheritance</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -428,9 +428,9 @@ div.section {
 
 
 
-<h1 class="title toc-ignore">Chapter 1 Overview of Genetics</h1>
+<h1 class="title toc-ignore">Chapter 2 Mendelian Inheritance</h1>
 <h4 class="author">Kaiqian Zhang</h4>
-<h4 class="date">4/25/2019</h4>
+<h4 class="date">5/3/2019</h4>
 
 </div>
 
@@ -585,70 +585,19 @@ Message
 <tbody>
 <tr>
 <td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/KaiqianZhang/brooker-genetics/23790a7a54ed3e5f16714083bab47a6993d85c10/docs/C1.html" target="_blank">23790a7</a>
-</td>
-<td>
-kaiqian
-</td>
-<td>
-2019-04-29
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
 Rmd
 </td>
 <td>
-<a href="https://github.com/KaiqianZhang/brooker-genetics/blob/764c143712e697ddc565607e94332cbeb31446a3/analysis/C1.Rmd" target="_blank">764c143</a>
+<a href="https://github.com/KaiqianZhang/brooker-genetics/blob/ab3ee1c14dea1ae86e1a5b0b05c0ff4221f5b981/analysis/C2.Rmd" target="_blank">ab3ee1c</a>
 </td>
 <td>
 kaiqian
 </td>
 <td>
-2019-04-29
+2019-05-05
 </td>
 <td>
-update C1
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/KaiqianZhang/brooker-genetics/068b5d31fdbc3db19376d5f1b7355c565e79e901/docs/C1.html" target="_blank">068b5d3</a>
-</td>
-<td>
-kaiqian
-</td>
-<td>
-2019-04-25
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/KaiqianZhang/brooker-genetics/blob/ad6e9207e37b1c7c48b4b309ca0f01f9e47df784/analysis/C1.Rmd" target="_blank">ad6e920</a>
-</td>
-<td>
-kaiqian
-</td>
-<td>
-2019-04-25
-</td>
-<td>
-p1-p5 notes
+read until the start of chapter 3 and take notes
 </td>
 </tr>
 </tbody>
@@ -658,72 +607,32 @@ p1-p5 notes
 </div>
 </div>
 </div>
-<div id="dna-basics" class="section level2">
-<h2>DNA basics</h2>
+<div id="mendals-law-of-inheritance" class="section level2">
+<h2>Mendal’s law of inheritance</h2>
 <ul>
-<li><p>A DNA sequence is 3 billion nucleotide base pairs in length.</p></li>
-<li><p>46 chromosomes in 23 pairs.</p></li>
-<li><p>Each cell has two sequences of DNA.</p></li>
-<li><p>Approximately 20,000 to 25,000 genes coding for proteins.</p></li>
-<li><p>DNA is the largest macro- molecule found in living cells. A single DNA molecule can be composed of a linear sequence of hundreds of millions of nucleotides!</p></li>
-</ul>
-<div id="polypeptide" class="section level3">
-<h3>Polypeptide</h3>
-<ul>
-<li><p>Functional product of most genes.</p></li>
-<li><p>A linear sequence of amino acids that folds into units that constitute proteins.</p></li>
+<li><p>By conducting monohybrid crosses, Mendel proposed three key ideas regarding inheritance. (1) Traits may be dominant or recessive. (2) Genes are passed unaltered from generation to generation. (3) The two alleles of a given gene segregate from each other during gamete formation</p></li>
+<li><p>F1 (first generation) can be used to tell which trait is dominant.</p></li>
+<li><p>A Punnett square can be used to deduce the outcome of crosses.</p></li>
+<li><p>By conducting dihybrid crosses, Mendel proposed the law of independent assortment.</p></li>
 </ul>
 </div>
-<div id="chromosome" class="section level3">
-<h3>Chromosome</h3>
+<div id="chi-square-test" class="section level2">
+<h2>Chi square test</h2>
 <ul>
-<li>Contained in the cell nucleus for a eukaryotic cell. The double membrane shield chromosomes from the rest of the cell.</li>
+<li>We can use the chi square test to analyze population data in which the members of the population fall into different categories.</li>
 </ul>
-</div>
-<div id="protein" class="section level3">
-<h3>Protein</h3>
+<p><span class="math display">\[
+\chi^2 = \sum_i \frac{(O_i - E_i)^2}{E_i},
+\]</span> where <span class="math inline">\(O_i\)</span> is the observed data for the ith category, and <span class="math inline">\(E_i\)</span> is the expected data for the ith category.</p>
 <ul>
-<li><p>“Workhorse” of all living cells: proteins in the cell determine cell structure and function.</p></li>
-<li><p>Enzyme, a particular protein, could determine the construction of cell. (The construction of a cell greatly depends on its proteins involved in anabolism)</p></li>
-</ul>
-</div>
-<div id="mrna" class="section level3">
-<h3>mRNA</h3>
-<ul>
-<li>RNA that contains information for the synthesis of a particular polypeptide.</li>
-</ul>
-</div>
-<div id="diploid" class="section level3">
-<h3>diploid</h3>
-<ul>
-<li>Contains two copies of each chromosome, one from each parent.</li>
-</ul>
-</div>
-<div id="homologs" class="section level3">
-<h3>Homologs</h3>
-<ul>
-<li>The two copies are called homologs to each other.</li>
-</ul>
-</div>
-<div id="somatic-cells" class="section level3">
-<h3>Somatic cells</h3>
-<ul>
-<li><p>cells that are not directly involved in the sextual repreduction contain 46 chromosomes.</p></li>
-<li><p>gametes contain only 23 chromosomes, are haploid.</p></li>
-</ul>
-</div>
-<div id="allele" class="section level3">
-<h3>allele</h3>
-<ul>
-<li><p>different versions of the same gene</p></li>
-<li><p>say genotype of one gene in human is Tt, then t is allele.</p></li>
-</ul>
-<br> <br>
+<li><p>Degrees of freedom: the number of categories - 1.</p></li>
+<li>Hypothesis testing is used to see goodness of fit. <br> <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
 <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Session information
 </button>
-</p>
+</p></li>
+</ul>
 <div id="workflowr-sessioninfo" class="collapse">
 <pre class="r"><code>sessionInfo()</code></pre>
 <pre><code>R version 3.5.3 (2019-03-11)
@@ -746,7 +655,6 @@ loaded via a namespace (and not attached):
  [9] stringi_1.4.3   fs_1.2.7        whisker_0.3-2   rmarkdown_1.12 
 [13] tools_3.5.3     stringr_1.4.0   glue_1.3.1      xfun_0.5       
 [17] yaml_2.2.0      compiler_3.5.3  htmltools_0.3.6 knitr_1.22     </code></pre>
-</div>
 </div>
 </div>
 
