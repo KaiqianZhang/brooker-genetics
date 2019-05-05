@@ -1,0 +1,33 @@
+---
+title: "Chapter 3 Reproduction and chromosome transmission"
+author: "Kaiqian Zhang"
+date: "5/4/2019"
+output:
+  workflowr::wflow_html:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Species types
+
+### Prokaryotes
+
+- Greek meaning prenucleus
+
+- e.g.: Bacteria and archaea 
+
+- Their chromosomes are not contained within a membrane-bound nucleus of the cell. Prokaryotes usually have a single type of circular chromosome in a region of the cytoplasm called the nucleoid.
+
+### Eukaryotes
+
+- Greek meaning true nucleus
+
+- e.g.: as single-celled protists and some fungi (such as yeast), plants, animals
+
+## DNA in Eukaryotes
+
+- In addition to the nucleus, certain organelles in eukaryotic cells contain a small amount of their own DNA. They are referred to as extranuclear or extrachromosomal DNA to distinguish it from the DNA that is found in the cell nucleus.
+

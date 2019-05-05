@@ -1,0 +1,36 @@
+---
+title: "Chapter 2 Mendelian Inheritance"
+author: "Kaiqian Zhang"
+date: "5/3/2019"
+output:
+  workflowr::wflow_html:
+    code_folding: hide
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Mendal's law of inheritance
+
+- By conducting monohybrid crosses, Mendel proposed three key ideas regarding inheritance. (1) Traits may be dominant or recessive. (2) Genes are passed unaltered from generation to generation. (3) The two alleles of a given gene segregate from each other during gamete formation
+
+- F1 (first generation) can be used to tell which trait is dominant.
+
+- A Punnett square can be used to deduce the outcome of crosses.
+
+- By conducting dihybrid crosses, Mendel proposed the law of independent assortment.
+
+## Chi square test
+
+- We can use the chi square test to analyze population data in which the members of the population fall into different categories.
+
+$$
+\chi^2 = \sum_i \frac{(O_i - E_i)^2}{E_i},
+$$
+where $O_i$ is the observed data for the ith category, and $E_i$ is the expected data for the ith category.
+
+- Degrees of freedom: the number of categories - 1.
+
+- Hypothesis testing is used to see goodness of fit. 
